@@ -1,37 +1,15 @@
-2023-11-03 16:29:38,063 : INFO : Test_Billing_Address : test_change_address_004 : 15 : Browser is Opening
-2023-11-03 16:29:38,063 : INFO : Test_Billing_Address : test_change_address_004 : 18 : User login to account
-2023-11-03 16:29:39,650 : INFO : Test_Billing_Address : test_change_address_004 : 20 : Enter Username
-2023-11-03 16:29:39,822 : INFO : Test_Billing_Address : test_change_address_004 : 22 : Click on Continue Button
-2023-11-03 16:29:40,291 : INFO : Test_Billing_Address : test_change_address_004 : 24 : Enter Password
-2023-11-03 16:29:40,784 : INFO : Test_Billing_Address : test_change_address_004 : 26 : Click on Sign In button
-2023-11-03 16:29:40,892 : INFO : Test_Billing_Address : test_change_address_004 : 28 : ******* Create Object for Billing Address *******
-2023-11-03 16:29:40,892 : INFO : Test_Billing_Address : test_change_address_004 : 30 : Click on Account & List link
-2023-11-03 16:33:54,698 : INFO : Test_Billing_Address : test_change_address_004 : 15 : Browser is Opening
-2023-11-03 16:33:54,698 : INFO : Test_Billing_Address : test_change_address_004 : 18 : User login to account
-2023-11-03 16:33:56,585 : INFO : Test_Billing_Address : test_change_address_004 : 20 : Enter Username
-2023-11-03 16:33:56,761 : INFO : Test_Billing_Address : test_change_address_004 : 22 : Click on Continue Button
-2023-11-03 16:33:57,653 : INFO : Test_Billing_Address : test_change_address_004 : 24 : Enter Password
-2023-11-03 16:33:57,751 : INFO : Test_Billing_Address : test_change_address_004 : 26 : Click on Sign In button
-2023-11-03 16:33:57,859 : INFO : Test_Billing_Address : test_change_address_004 : 28 : ******* Create Object for Billing Address *******
-2023-11-03 16:33:57,859 : INFO : Test_Billing_Address : test_change_address_004 : 30 : Click on Account & List link
-2023-11-03 16:34:01,267 : INFO : Test_Billing_Address : test_change_address_004 : 32 : Click on address setting
-2023-11-03 16:34:02,426 : INFO : Test_Billing_Address : test_change_address_004 : 34 : Click on edit option address window
-2023-11-03 16:34:03,212 : INFO : Test_Billing_Address : test_change_address_004 : 41 : click on cancel button
-2023-11-03 16:34:08,593 : INFO : Test_Billing_Address : test_change_address_004 : 47 : click on add address
-2023-11-03 16:34:09,680 : INFO : Test_Billing_Address : test_change_address_004 : 49 : select country
-2023-11-03 16:34:09,735 : INFO : Test_Billing_Address : test_change_address_004 : 51 : Enter first Name and Last Name
-2023-11-03 16:34:13,320 : INFO : Test_profile_info : test_change_photo_003 : 17 : Browser is Opening
-2023-11-03 16:34:13,320 : INFO : Test_profile_info : test_change_photo_003 : 20 : User login to account
-2023-11-03 16:34:16,786 : INFO : Test_profile_info : test_change_photo_003 : 26 : *** Opening Profile Manage setting ***
-2023-11-03 16:34:16,786 : INFO : Test_profile_info : test_change_photo_003 : 28 : *** click on Manage profile ***
-2023-11-03 16:34:21,378 : INFO : Test_profile_info : test_change_photo_003 : 30 : *** click on Profile setting ***
-2023-11-03 16:34:30,914 : INFO : Test_profile_info : test_change_photo_003 : 33 : *** click on Image Icon***
-2023-11-03 16:34:36,090 : INFO : Test_profile_info : test_change_photo_003 : 36 : *** click on Upload text***
-2023-11-03 16:34:39,974 : INFO : Test_Login : test_title_001 : 12 : **Browser is Started**
-2023-11-03 16:34:40,151 : INFO : Test_Login : test_title_001 : 15 : *****Title is asserting****
-2023-11-03 16:34:47,947 : INFO : Test_Login : test_login_002 : 23 : **Browser is Started**
-2023-11-03 16:34:47,947 : INFO : Test_Login : test_login_002 : 26 : ****Amazon account is Logging****
-2023-11-03 16:34:50,016 : INFO : Test_Login : test_login_002 : 28 : Enter the email address
-2023-11-03 16:34:51,228 : INFO : Test_Login : test_login_002 : 31 : Enter password
-2023-11-03 16:34:54,139 : INFO : Test_Login : test_login_002 : 35 : Asserting message after Login
-2023-11-03 16:34:54,139 : INFO : Test_Login : test_login_002 : 43 : ****Sign out the account****
+2023-11-04 11:50:36,912 : INFO : Test_Billing_Address : test_change_address_004 : 17 : Browser is Opening
+2023-11-04 11:50:36,913 : INFO : Test_Billing_Address : test_change_address_004 : 20 : User login to account
+2023-11-04 11:50:38,680 : INFO : Test_Billing_Address : test_change_address_004 : 22 : Enter Username
+2023-11-04 11:50:38,853 : INFO : Test_Billing_Address : test_change_address_004 : 24 : Click on Continue Button
+2023-11-04 11:50:39,717 : INFO : Test_Billing_Address : test_change_address_004 : 26 : Enter Password
+2023-11-04 11:50:39,811 : INFO : Test_Billing_Address : test_change_address_004 : 28 : Click on Sign In button
+2023-11-04 11:50:39,929 : INFO : Test_Billing_Address : test_change_address_004 : 30 : ******* Create Object for Billing Address *******
+2023-11-04 11:50:39,929 : INFO : Test_Billing_Address : test_change_address_004 : 32 : Click on Account & List link
+2023-11-04 11:50:48,666 : INFO : Test_Billing_Address : test_change_address_004 : 34 : Click on address setting
+2023-11-04 11:50:49,713 : INFO : Test_Billing_Address : test_change_address_004 : 56 : click on add address
+2023-11-04 11:50:50,838 : INFO : Test_Billing_Address : test_change_address_004 : 58 : select country
+2023-11-04 11:50:50,893 : INFO : Test_Billing_Address : test_change_address_004 : 60 : Enter first Name and Last Name
+2023-11-04 11:50:51,150 : INFO : Test_Billing_Address : test_change_address_004 : 62 : Enter 10 digit mobile no
+2023-11-04 11:50:51,350 : INFO : Test_Billing_Address : test_change_address_004 : 65 : Enter 6 digit pin code
+2023-11-04 11:50:51,474 : INFO : Test_Billing_Address : test_change_address_004 : 68 : Enter Flat No and House No

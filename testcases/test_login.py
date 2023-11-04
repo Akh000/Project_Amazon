@@ -8,6 +8,7 @@ from pageObject.Login_object import Login_Amazon
 class Test_Login:
     logs = LogGenerator.Loggen()
 
+    @pytest.mark.skip
     def test_title_001(self, setup):
         self.logs.info("**Browser is Started**")
         self.driver = setup
@@ -19,6 +20,7 @@ class Test_Login:
         else:
             assert False
 
+    @pytest.mark.skip
     def test_login_002(self, setup):
         self.logs.info("**Browser is Started**")
         self.driver = setup

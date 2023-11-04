@@ -51,5 +51,39 @@ class Amazon_Address_Change:
             assert False
 
     def enter_firstName_LastName(self, first_last):
-        fl = self.driver.find_element(*Amazon_Address_Change.enter_f_name_l_name_xpath).text
-        print(fl)
+        self.driver.find_element(*Amazon_Address_Change.enter_f_name_l_name_xpath).clear()
+        self.driver.find_element(*Amazon_Address_Change.enter_f_name_l_name_xpath).send_keys(first_last)
+
+    def enter_mobile_no(self, mob):
+        if len(mob) > 10:
+            assert False
+        else:
+            self.driver.find_element(*Amazon_Address_Change.enter_mob_number_xpath).send_keys(mob)
+            return True
+
+    def enter_pin_code(self, pin):
+        if len(pin) > 6:
+            assert False
+        else:
+            self.driver.find_element(*Amazon_Address_Change.enter_pin_code_xpath).send_keys(pin)
+            return True
+
+    def enter_flat_no_house(self, flat_house):
+        self.driver.find_element(Amazon_Address_Change.enter_flat_no_house_xpath).clear()
+        self.driver.find_element(Amazon_Address_Change.enter_flat_no_house_xpath).send_keys(flat_house)
+
+    def enter_area_street(self, area_street):
+        self.driver.find_element(*Amazon_Address_Change.enter_area_street_xpath).clear()
+        self.driver.find_element(*Amazon_Address_Change.enter_area_street_xpath).send_keys(area_street)
+
+    def enter_landmark(self, landmark):
+        self.driver.find_element(*Amazon_Address_Change.enter_landmark_xpath).send_keys(landmark)
+
+    def enter_city(self, city):
+        self.driver.find_element(*Amazon_Address_Change.enter_city_xpath).send_keys(city)
+
+    def select_state(self, state):
+        Select(self.driver.find_element(*Amazon_Address_Change.select_state_xpath)).select_by_visible_text(state)
+
+    def click_add_address_button(self):
+        self.driver.find_element(*Amazon_Address_Change.click_add_address_button_xpath).click()

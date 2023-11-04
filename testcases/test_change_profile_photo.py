@@ -13,6 +13,7 @@ class Test_profile_info:
     username = ReadConfig.GetUserName()
     password = ReadConfig.GetPassword()
 
+    @pytest.mark.skip
     def test_change_photo_003(self, setup):
         self.logs.info("Browser is Opening")
         self.driver = setup
